@@ -18,5 +18,7 @@ NAS的总体框架如下图：定义搜索空间(一组可供搜索的神经网�
 
 *性能评估策略*告诉机器如何判断搜索得到的网络的好坏；
 
-<img src="D:\SAIC_Work\Git\AutoML\img\062501.png" alt="NAS" style="zoom:50%;" />
+<img src="https://github.com/eaoibng/AutoML/raw/main/img/062501.png" alt="NAS" style="zoom:50%;" />
+
+
 

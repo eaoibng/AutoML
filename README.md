@@ -77,3 +77,39 @@ SMBO模型(Sequential model-based optimization，SMBO，贝叶斯优化的最简
 
 ***
 
+#### 6月28日
+
+论文***A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions***的相关网址如下：
+
+[NAS综述(2020)](https://blog.csdn.net/qq_21872981/article/details/106603177)
+
+***
+
+***多目标优化——帕累托(Pareto)最优解***
+
+假设有一个点A，针对于两个或多个目标函数，不存在优于点A的帕累托解，那么称A为帕累托最优解。
+
+所有的帕累托最优解构成帕累托最优解集，这些解经目标函数映射构成了该问题的Pareto最优前沿或Pareto前沿面。
+
+帕累托最优解是一个解空间，对于两个目标函数的优化，帕累托最优前沿通常是条线；对于多目标，Pareto最优前沿通常是一个超曲面。
+
+具体解释可见下文：
+
+[Pareto最优注解](https://zhuanlan.zhihu.com/p/54691447)
+
+***
+
+阅读王晓星博士撰写的《NAS_for_detection》文章
+
+***SM_NAS***是将神经网络架构搜索和目标检测结合，从目标检测算法的pipeline来进行的搜索，即backbone-neck-RPN-head...
+
+***Auto-FPN***是对backbone的特征做自动融合操作(Auto-fusion)，其次就是对head网络使用NAS技术搜索得到一个网络用于分类和回归。(该文章有诸多不清晰的地方，需要进一步研究)
+
+***
+
+***weight decay***——权值衰减
+
+***dilated convolution***——空洞卷积
+
+
+
